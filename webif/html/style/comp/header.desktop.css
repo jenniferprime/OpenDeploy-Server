@@ -1,0 +1,39 @@
+header {
+    z-index: 500;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 3rem;
+
+    background-color: #333A;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-flex;
+    color: #EFEFEF;
+
+    line-height: 3rem;
+    padding: 0 0.5rem;
+
+    user-select: none;
+}
+
+header nav ul li:hover {
+    background-color: #EFAFEF;
+    color: #000E;
+}
+
+.h-icon {
+    background-color: #EFAFEFAA;
+}
+
+.h-active {
+    border-bottom: #EFAFEF 4px solid;
+}
